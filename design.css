@@ -753,33 +753,187 @@ img {
 
 @media (max-width: 430px) {
 
+
+    /*
     body {
         width: 932px;
     }
+*/
 
+    .picContainer {
+        display: flex;
+
+    }
+
+
+    .introContainer {
+        margin-top: unset;
+    }
 
     .profile {
-        margin-top: 80px;
-        height: 230px;
-        width: 270px;
-        margin-bottom: 40px;
-        margin-left: 100px;
+        display: block;
+        margin-left: unset;
+        margin-top: 180px;
+        position: absolute;
+        height: 170px;
+        animation: translateAnimation 2s infinite alternate;
+
 
     }
 
+
+
+    @keyframes translateAnimation {
+        from {
+            transform: translateX(0);
+            box-shadow: 0 0 40px 5px rgb(231, 56, 114);
+        }
+
+        to {
+            transform: translateX(30px);
+            box-shadow: 0 0 40px 5px rgb(153, 0, 255);
+        }
+    }
+
+
+
+    .intro {
+        margin-top: 80px;
+        font-size: 30px;
+        margin-left: 40PX;
+        line-height: 50px;
+    }
+
+    .wholeText {
+        font-size: 30px;
+        margin-left: 40PX;
+    }
+
+    .wordsPlay {
+        font-size: 30px;
+    }
+
+    .seeProj {
+        font-size: 15PX;
+        margin-left: 50px;
+    }
 
     #glowingLine {
-        width: 720px;
+        width: 320px;
     }
+
+    #java-btn {
+        font-size: 12px;
+        width: 80px;
+    }
+
+    #frontEnd-btn {
+        font-size: 12px;
+        width: 80px;
+    }
+
+    #figma-btn {
+        font-size: 12px;
+        width: 80px;
+    }
+
+    #all-btn {
+        font-size: 12px;
+        width: 80px;
+    }
+
 
 }
 
 
 @media (max-width: 390px) {
 
-    body {
-        width: 844px;
+
+    .picContainer {
+        display: flex;
+
     }
 
+
+    .introContainer {
+        margin-top: unset;
+    }
+
+    .profile {
+        display: block;
+        margin-left: unset;
+        margin-top: 175px;
+        position: absolute;
+        height: 170px;
+
+        animation: translateAnimation 2s infinite alternate;
+
+
+    }
+
+
+
+    @keyframes translateAnimation {
+        from {
+            transform: translateX(0);
+            box-shadow: 0 0 40px 5px rgb(231, 56, 114);
+        }
+
+        to {
+            transform: translateX(20px);
+            box-shadow: 0 0 40px 5px rgb(153, 0, 255);
+        }
+    }
+
+
+
+    .intro {
+        font-size: 30px;
+        margin-left: unset;
+        line-height: 50px;
+
+    }
+
+    .wholeText {
+        font-size: 30px;
+        margin-left: unset;
+    }
+
+    .wordsPlay {
+        font-size: 30px;
+    }
+
+    .seeProj {
+        font-size: 15PX;
+        margin-left: 50px;
+    }
+
+    #glowingLine {
+        width: 320px;
+    }
+
+    #java-btn {
+        font-size: 10px;
+        width: 70px;
+    }
+
+    #frontEnd-btn {
+        font-size: 10px;
+        width: 70px;
+    }
+
+    #figma-btn {
+        font-size: 10px;
+        width: 70px;
+    }
+
+    #all-btn {
+        font-size: 10px;
+        width: 70px;
+    }
+
+    .seeProj {
+        margin-left: 30px;
+    }
 
 }
