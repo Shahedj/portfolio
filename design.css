@@ -605,6 +605,8 @@ img {
     }
 }
 
+
+
 @media (max-width: 1010px) {
 
     .profile {
@@ -749,16 +751,35 @@ img {
 }
 
 
-@media (max-width: 390px) {
+@media (max-width: 430px) {
 
     body {
-        margin: 0;
+        width: 932px;
+    }
+
+
+    .profile {
+        margin-top: 80px;
+        height: 230px;
+        width: 270px;
+        margin-bottom: 40px;
+        margin-left: 100px;
+
     }
 
 
     #glowingLine {
-
-        display: none;
-
+        width: 720px;
     }
+
+}
+
+
+@media (max-width: 390px) {
+
+    body {
+        width: 844px;
+    }
+
+
 }
