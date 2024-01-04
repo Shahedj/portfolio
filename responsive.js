@@ -13,32 +13,32 @@ function deleteChildElements(parent) {
 const projectInfo =  [
 {
     title: "Pool cleaning service",
-    img: "/Users/shahed/Portfolio_SJ/poolapp.png",
+    img: "poolapp.png",
     description: "This project makes payment methods easier between clients and providers, make it easier for clients to schedule appointments with providers by seeing their availability and what locations they cover, look at what the provider worked on and a time stamp of where they are, providers are able to check what tasks they have done and what is in progress still. Me and my team are doing this project using HTML, CSS, JS for frontend, Django is being used as an API for the backend, and microsoft azure for MySQL. "
 },
 {
     title: "Game world game",
-    img: "/Users/shahed/Portfolio_SJ/ipadGame.png",
+    img: "ipadGame.png",
     description: "This project is done using Java using codenameone, this project has multiple player shaped objects that move in their intended headed directions within the defined boundaries and the main player can go to places to increase their waterintake or go to restroom to have their waterintake back to 0, and the main player can also attend or miss lecture which will have different results."
 },
 {
     title: "Sea Monster Crowdfunding",
-    img: "/Users/shahed/Portfolio_SJ/calculate.png",
+    img: "calculate.png",
     description: "This website is done using HTML, CSS, and JS. This website renders a data and displays which game has the most contributions, total raised from all the games Contributions, total number of games, what is the top funded game and what is second to it. This webpage also displays all the games into the website."
 },
 {
     title: "Pool service figma",
-    img: "/Users/shahed/Portfolio_SJ/FigmaOne.png",
+    img: "FigmaOne.png",
     description: "This was the Figma design for the pool cleaning service website with different design for both desktop and mobile designs."
 },
 {
     title: "login figma design",
-    img: "/Users/shahed/Portfolio_SJ/FigmaTwo.png",
+    img: "FigmaTwo.png",
     description: "This Figma design was an idea for another website that I was working on with a team where I was brainstorming ideas on homepage and signup page. "
 },
 {
     title: "Animal Welfare",
-    img: "/Users/shahed/Portfolio_SJ/animalWelfare.png",
+    img: "animalWelfare.png",
     description: "This website is to inform people about animal welfare's and to sign a petition. This website was done using HTML, CSS, and js."
 }
 ];
