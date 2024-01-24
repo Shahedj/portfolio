@@ -58,7 +58,7 @@ function addGamesToPage(projects) {
     // add the class game-card to the list
     createDiv.classList.add('project-card');
     
-    createDiv.innerHTML = ` <h2> Title: ${project.title}</h2> <img src="${project.img}" class="project-img"/>  <p class="desc"> <b>Description:</b> ${project.description}</p>`;
+    createDiv.innerHTML = `<h3>Title: ${project.title}</h3> <img src="${project.img}" class="project-img"/>  <p class="desc"> <b>Description:</b> ${project.description}</p>`;
  
      // append the game to the games-container       
      show.appendChild(createDiv);

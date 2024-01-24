@@ -268,6 +268,13 @@ button:hover {
     flex-wrap: wrap;
 }
 
+
+h3 {
+    font-size: 40px;
+    color: rgb(231, 56, 114);
+    text-shadow: 0 0 20px #ff0055;
+}
+
 .project-card {
     background-color: rgb(255, 255, 255);
     padding: 1%;
@@ -357,7 +364,7 @@ img {
     content: "";
     position: absolute;
     width: calc(100% + 8px);
-    height: 100%;
+    height: 90px;
     background-color: black;
     border-left: 2px solid rgb(255, 255, 255);
     right: -6px;
@@ -750,21 +757,12 @@ img {
 
 }
 
-
 @media (max-width: 430px) {
-
-
-    /*
-    body {
-        width: 932px;
-    }
-*/
 
     .picContainer {
         display: flex;
 
     }
-
 
     .introContainer {
         margin-top: unset;
@@ -778,10 +776,7 @@ img {
         height: 170px;
         animation: translateAnimation 2s infinite alternate;
 
-
     }
-
-
 
     @keyframes translateAnimation {
         from {
@@ -807,6 +802,7 @@ img {
     .wholeText {
         font-size: 30px;
         margin-left: 40PX;
+        width: 400px;
     }
 
     .wordsPlay {
@@ -897,6 +893,7 @@ img {
     .wholeText {
         font-size: 30px;
         margin-left: unset;
+        width: 400px;
     }
 
     .wordsPlay {
