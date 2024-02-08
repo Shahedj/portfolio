@@ -14,7 +14,7 @@ const projectInfo =  [
 {
     title: "Pool cleaning service",
     img: "poolapp.png",
-    description: "This project makes payment methods easier between clients and providers, make it easier for clients to schedule appointments with providers by seeing their availability and what locations they cover, look at what the provider worked on and a time stamp of where they are, providers are able to check what tasks they have done and what is in progress still. Me and my team are doing this project using HTML, CSS, JS for frontend, Django is being used as an API for the backend, and microsoft azure for MySQL. "
+    description: "This project makes payment methods easier between clients and providers, make it easier for clients to schedule appointments with providers by seeing their availability and what locations they cover, look at what the provider worked on and a time stamp of where they are, providers are able to check what tasks they have done and what is in progress still. Me and my team are doing this project using HTML, CSS, JS for frontend, Django is being used for the backend, and MySQL as a database. "
 },
 {
     title: "Game world game",
