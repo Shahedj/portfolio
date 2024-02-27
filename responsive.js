@@ -40,6 +40,11 @@ const projectInfo =  [
     title: "Animal Welfare",
     img: "animalWelfare.png",
     description: "This website is to inform people about animal welfare's and to sign a petition. This website was done using HTML, CSS, and js."
+}, 
+{
+    title: "Calendar",
+    img: "calendar.png",
+    description: "This website is a calendar which states what things I am doing on what day and time. This websute is a frontend project and was done using the React.js framework and CSS to style."
 }
 ];
 
@@ -88,7 +93,12 @@ function filteringFrontEndProjects(){
 
     let frontEndProjOnly = projectInfo.filter (( project) => {
 
-        return project.description.includes("HTML" || "CSS" || "JS");
+        
+        return project.description.includes("HTML") || 
+        project.description.includes("CSS") || 
+        project.description.includes("JS");
+
+
     });
 
     addGamesToPage(frontEndProjOnly);
