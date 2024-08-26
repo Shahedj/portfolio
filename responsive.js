@@ -22,6 +22,11 @@ const projectInfo =  [
     description: "This project is done using Java using codenameone, this project has multiple player shaped objects that move in their intended headed directions within the defined boundaries and the main player can go to places to increase their waterintake or go to restroom to have their waterintake back to 0, and the main player can also attend or miss lecture which will have different results."
 },
 {
+title: "Emenu (Drink Menu Management System)",
+img: "Emenu.png",
+description: "Created a website using HTML, CSS, Django, bootstrap, and Spline.The core features include a view of detailed list of drinks with essential information such as images, names, ingredients, and prices, modify existing drinks to update their names, ingredients, and prices, and image, easily add new drinks to the menu or delete existing ones, quickly find specific drinks using a search feature." 
+},
+{
     title: "Sea Monster Crowdfunding",
     img: "calculate.png",
     description: "This website is done using HTML, CSS, and JS. This website renders a data and displays which game has the most contributions, total raised from all the games Contributions, total number of games, what is the top funded game and what is second to it. This webpage also displays all the games into the website."
