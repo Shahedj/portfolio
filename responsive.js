@@ -34,7 +34,7 @@ const projectInfo =  [
 {
     title: "Wireshark",
     img: "Wireshark.png",
-    description: "In this investigative lab, I acted as a Blue Team analyst responding to an internal email breach at a simulated company. I conducted a full network and log analysis to trace the source of a suspicious mass email. I analyzed network traffic using Wireshark to identify the source IP address of a malicious email using packet sniffing of a .pcap file. I then used the IP address to match it to a host device using DHCP logs and confirmed the logged-in user via security logs being looking at the events and activites logged. This process revealed that the suspicious emails originated from host USER2, which was accessed by user John Doe at the time of the incident, identifying the rogue actor."
+    description: "In this investigative lab, I acted as a Blue Team analyst responding to an internal email breach at a simulated company. I conducted a full network and log analysis to trace the source of a suspicious mass email. I analyzed network traffic using Wireshark to identify the source IP address of a malicious email using packet sniffing of a .pcap file. I then used the IP address to match it to a host device using DHCP logs and confirmed the logged-in user via security logs by looking at the events and activites logged. This process revealed that the suspicious emails originated from host USER2, which was accessed by user John Doe at the time of the incident, identifying the rogue actor."
 },  
 {
     title: "Burp Suite",
