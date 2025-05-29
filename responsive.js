@@ -34,7 +34,7 @@ description: "Created a website using HTML, CSS, Django, bootstrap, and Spline.T
 {
     title: "Pool service figma",
     img: "FigmaOne.png",
-    description: "This was the Figma design for the pool cleaning service website with different design for both desktop and mobile designs."
+    description: "This was the Figma design for the pool cleaning service website with different design for both desktop and mobile designs and confirmed with client to make sure they liked the design and listned for any feedback."
 },
 {
     title: "login figma design",
@@ -45,6 +45,21 @@ description: "Created a website using HTML, CSS, Django, bootstrap, and Spline.T
     title: "Animal Welfare",
     img: "animalWelfare.png",
     description: "This website is to inform people about animal welfare's and to sign a petition. This website was done using HTML, CSS, and js."
+}, 
+{
+    title: "Tenable Nessus",
+    img: "TenableNessus.png",
+    description: "In this lab, I opened my VM to run Kali Linux and opened Tenable Nessus and ran a valnerability scan on a specific IP range given. I then wrote a detailed report of the vulnerabilities found, how it was found with evidence, and mitigations steps to help increase security measures and prevent any exploitation."
+}, 
+{
+    title: "Scoute Suite",
+    img: "Scoutesuite.png",
+    description: "In this hands-on AWS lab, I created and secured a new AWS account, set up multi-factor authentication (MFA) for both the root and IAM administrator users, and established best practices by creating a non-root IAM admin for daily use for increased security. I then created an IAM user with read-only permissions. I installed a Python virtual environment and set up Scout Suite, a security auditing tool that assess cloud environment security measures, to perform a posture scan of the AWS environment. This scan identified potential security misconfigurations and vulnerabilities like disabled password expiration policies, Wrote a report with evidence and mitigation steps. I then corrected 3 of the security misconfigurations such as implementing a password eXpiration policy, MFA, and the allowed amount of tries of entering the correct password to 3 times only to prevent brute force attacks."
+}, 
+{
+    title: "Burp Suite",
+    img: "BurpSuite.png",
+    description: "For web application security testing. I used Burp Suite to perform brute-force attacks to crack login credentials and also practiced SQL injection, input manipulation, and Encoding/Decodin during a weekly web-based Capture the Flag (CTF) exercises."
 }, 
 {
     title: "Calendar",
@@ -92,6 +107,23 @@ function filteringJavaProjects(){
 
 }
 
+
+
+function filteringCyberProjects(){
+
+    deleteChildElements(show);
+
+    let cyberProjOnly = projectInfo.filter (( project) => {
+
+        return project.description.includes("security");
+    });
+
+    addGamesToPage(cyberProjOnly);
+
+}
+
+
+
 function filteringFrontEndProjects(){
 
     deleteChildElements(show);
@@ -136,13 +168,16 @@ function addAllGamesToPage (){
 const javaButton = document.getElementById("java-btn");
 const frontEndButton = document.getElementById("frontEnd-btn");
 const figmaButton = document.getElementById("figma-btn");
+const cyberButton = document.getElementById("cyber-btn");
 const allButton = document.getElementById("all-btn");
 
 
 javaButton.addEventListener("click", filteringJavaProjects);
 frontEndButton.addEventListener("click", filteringFrontEndProjects);
 figmaButton.addEventListener("click", filteringFigmaProjects);
+cyberButton.addEventListener("click", filteringCyberProjects);
 allButton.addEventListener("click", addAllGamesToPage);
+
 
 
 const textColor = document.getElementsByClassName("intro");
