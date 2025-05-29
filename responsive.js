@@ -22,6 +22,26 @@ const projectInfo =  [
     description: "This project is done using Java using codenameone, this project has multiple player shaped objects that move in their intended headed directions within the defined boundaries and the main player can go to places to increase their waterintake or go to restroom to have their waterintake back to 0, and the main player can also attend or miss lecture which will have different results."
 },
 {
+    title: "Tenable Nessus",
+    img: "TenableNessus.png",
+    description: "In this lab, I opened my VM to run Kali Linux and opened Tenable Nessus and ran a valnerability scan on a specific IP range given. I then wrote a detailed report of the vulnerabilities found, how it was found with evidence, and mitigations steps to help increase security measures and prevent any exploitation."
+}, 
+{
+    title: "Scoute Suite",
+    img: "Scoutesuite.png",
+    description: "In this hands-on AWS lab, I created and secured a new AWS account, set up multi-factor authentication (MFA) for both the root and IAM administrator users, and established best practices by creating a non-root IAM admin for daily use for increased security. I then created an IAM user with read-only permissions. I installed a Python virtual environment and set up Scout Suite, a security auditing tool that assess cloud environment security measures, to perform a posture scan of the AWS environment. This scan identified potential security misconfigurations and vulnerabilities like disabled password expiration policies, Wrote a report with evidence and mitigation steps. I then corrected 3 of the security misconfigurations such as implementing a password eXpiration policy, MFA, and the allowed amount of tries of entering the correct password to 3 times only to prevent brute force attacks."
+},
+{
+    title: "Wireshark",
+    img: "Wireshark.png",
+    description: "In this investigative lab, I acted as a Blue Team analyst responding to an internal email breach at a simulated company. I conducted a full network and log analysis to trace the source of a suspicious mass email. I analyzed network traffic using Wireshark to identify the source IP address of a malicious email using packet sniffing of a .pcap file. I then used the IP address to match it to a host device using DHCP logs and confirmed the logged-in user via security logs being looking at the events and activites logged. This process revealed that the suspicious emails originated from host USER2, which was accessed by user John Doe at the time of the incident, identifying the rogue actor."
+},  
+{
+    title: "Burp Suite",
+    img: "BurpSuite.png",
+    description: "For web application security testing. I used Burp Suite to perform brute-force attacks to crack login credentials and also practiced SQL injection, input manipulation, and Encoding/Decodin during a weekly web-based Capture the Flag (CTF) exercises."
+}, 
+{
 title: "Emenu (Drink Menu Management System)",
 img: "Emenu.png",
 description: "Created a website using HTML, CSS, Django, bootstrap, and Spline.The core features include a view of detailed list of drinks with essential information such as images, names, ingredients, and prices, modify existing drinks to update their names, ingredients, and prices, and image, easily add new drinks to the menu or delete existing ones, quickly find specific drinks using a search feature." 
@@ -45,21 +65,6 @@ description: "Created a website using HTML, CSS, Django, bootstrap, and Spline.T
     title: "Animal Welfare",
     img: "animalWelfare.png",
     description: "This website is to inform people about animal welfare's and to sign a petition. This website was done using HTML, CSS, and js."
-}, 
-{
-    title: "Tenable Nessus",
-    img: "TenableNessus.png",
-    description: "In this lab, I opened my VM to run Kali Linux and opened Tenable Nessus and ran a valnerability scan on a specific IP range given. I then wrote a detailed report of the vulnerabilities found, how it was found with evidence, and mitigations steps to help increase security measures and prevent any exploitation."
-}, 
-{
-    title: "Scoute Suite",
-    img: "Scoutesuite.png",
-    description: "In this hands-on AWS lab, I created and secured a new AWS account, set up multi-factor authentication (MFA) for both the root and IAM administrator users, and established best practices by creating a non-root IAM admin for daily use for increased security. I then created an IAM user with read-only permissions. I installed a Python virtual environment and set up Scout Suite, a security auditing tool that assess cloud environment security measures, to perform a posture scan of the AWS environment. This scan identified potential security misconfigurations and vulnerabilities like disabled password expiration policies, Wrote a report with evidence and mitigation steps. I then corrected 3 of the security misconfigurations such as implementing a password eXpiration policy, MFA, and the allowed amount of tries of entering the correct password to 3 times only to prevent brute force attacks."
-}, 
-{
-    title: "Burp Suite",
-    img: "BurpSuite.png",
-    description: "For web application security testing. I used Burp Suite to perform brute-force attacks to crack login credentials and also practiced SQL injection, input manipulation, and Encoding/Decodin during a weekly web-based Capture the Flag (CTF) exercises."
 }, 
 {
     title: "Calendar",
