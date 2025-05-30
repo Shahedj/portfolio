@@ -314,6 +314,10 @@ img {
 }
 
 
+.singleLine{
+    color: rgb(231, 56, 114);
+}
+
 .revealable {
     /*which will allow the containers to move without affecting the position of other elements*/
     position: relative;
