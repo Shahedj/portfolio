@@ -42,9 +42,19 @@ const projectInfo =  [
     description: "For web application security testing. I used Burp Suite to perform brute-force attacks to crack login credentials and also practiced SQL injection, input manipulation, and Encoding/Decodin during a weekly web-based Capture the Flag (CTF) exercises."
 }, 
 {
-title: "Emenu (Drink Menu Management System)",
-img: "Emenu.png",
-description: "Created a website using HTML, CSS, Django, bootstrap, and Spline.The core features include a view of detailed list of drinks with essential information such as images, names, ingredients, and prices, modify existing drinks to update their names, ingredients, and prices, and image, easily add new drinks to the menu or delete existing ones, quickly find specific drinks using a search feature." 
+    title: "AIG Shields Up - Forage",
+    img: "ShieldUp.png",
+    description: "In the simulation I Completed a cybersecurity threat analysis simulation for the Cyber Defense Unit, staying updated on CISA publications, researched and understood reported vulnerabilities, showcasing analytical skills in cybersecurity, drafted a clear and concise email to guide teams on vulnerability remediation, and wrote a small script for ethical hacking, avoiding ransom payments by bruteforcing decryption keys." 
+},
+{
+    title: "Mastercard's Cybersecurity on Forage",
+    img: "Forage.png",
+    description: "In the simulation I completed a job simulation where I served as an analyst on Mastercard’s Security Awareness Team, helped identify and report security threats such as phishing, analyzed and identified which areas of the business needed more robust security training and implemented training courses and procedures for those teams." 
+},
+{
+    title: "Emenu (Drink Menu Management System)",
+    img: "Emenu.png",
+    description: "Created a website using HTML, CSS, Django, bootstrap, and Spline.The core features include a view of detailed list of drinks with essential information such as images, names, ingredients, and prices, modify existing drinks to update their names, ingredients, and prices, and image, easily add new drinks to the menu or delete existing ones, quickly find specific drinks using a search feature." 
 },
 {
     title: "Sea Monster Crowdfunding",
