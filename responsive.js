@@ -44,7 +44,7 @@ const projectInfo =  [
 {
     title: "Datacom cybersecurity job simulation",
     img: "Datacom.png",
-    description: "In this cybersecurity job simulation, I focussed on how Datacom's cybersecurity team helps protect it's clients, Investigated a cyberattack and produced a comprehensive report documenting findings and outlining key recommendations to improve a client's cybersecurity posture usig OSINT, and Conducted a comprehensive risk assessment. " 
+    description: "In this cybersecurity job simulation, I focussed on how Datacom's cybersecurity team helps protect it's clients, investigated a cyberattack and produced a comprehensive report documenting findings and outlining key recommendations to improve a client's cybersecurity posture usig OSINT, and conducted a comprehensive risk assessment. " 
 },
 {
     title: "AIG Shields Up - Forage",
