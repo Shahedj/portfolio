@@ -42,6 +42,11 @@ const projectInfo =  [
     description: "For web application security testing. I used Burp Suite to perform brute-force attacks to crack login credentials and also practiced SQL injection, input manipulation, and Encoding/Decodin during a weekly web-based Capture the Flag (CTF) exercises."
 }, 
 {
+    title: "Datacom cybersecurity job simulation",
+    img: "Datacom.png",
+    description: "In this cybersecurity job simulation, I focussed on how Datacom's cybersecurity team helps protect it's clients, Investigated a cyberattack and produced a comprehensive report documenting findings and outlining key recommendations to improve a client's cybersecurity posture usig OSINT, and Conducted a comprehensive risk assessment. " 
+},
+{
     title: "AIG Shields Up - Forage",
     img: "ShieldUp.png",
     description: "In the simulation I Completed a cybersecurity threat analysis simulation for the Cyber Defense Unit, staying updated on CISA publications, researched and understood reported vulnerabilities, showcasing analytical skills in cybersecurity, drafted a clear and concise email to guide teams on vulnerability remediation, and wrote a small script for ethical hacking, avoiding ransom payments by bruteforcing decryption keys." 
