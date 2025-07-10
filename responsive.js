@@ -77,6 +77,11 @@ const projectInfo =  [
     description: "This Figma design was an idea for another website that I was working on with a team where I was brainstorming ideas on homepage and signup page. "
 },
 {
+    title: "UML diagram",
+    img: "UML.png",
+    description: "This is a UML (unified modeling language) diagram for the Game world game project that is done in Java and codenameone. This UML uses a set of diagrams to model different aspects of a system, such as its architecture, components, relationships, and interactions."
+},
+{
     title: "Animal Welfare",
     img: "animalWelfare.png",
     description: "This website is to inform people about animal welfare's and to sign a petition. This website was done using HTML, CSS, and js."
