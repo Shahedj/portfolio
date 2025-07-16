@@ -42,6 +42,11 @@ const projectInfo =  [
     description: "For web application security testing. I used Burp Suite to perform brute-force attacks to crack login credentials and also practiced SQL injection, input manipulation, and Encoding/Decodin during a weekly web-based Capture the Flag (CTF) exercises."
 }, 
 {
+    title: "PwC Cyber",
+    img: "PwC.png",
+    description: "PwC US Cyber Security ConsultingJob Simulation on Forage. In this simulation, I gained valuable insight into the type of work conducted by the Enterprise Risk and Control Solutions group. I worked on a cybersecurity risk assessment project, evaluating a client's processes (P2P Standard Operating Procedure (SOP) document) against Sarbanes-Oxley (SOX) requirements. I assessed whether controls were missing, identified associated risks with those gaps, and documented my findings using a Test of Design and Operating Effectiveness and provided advice and feedback. I also read the client's SDLC SOP and compared it against the NIST SDLC guide (industry framework that provides leading practices) to pinpoint the gaps that they have. I also created a one-slide summary to present my analysis, which helped strengthen my analytical and presentation skills in a real-world context. "
+},
+{
     title: "Datacom cybersecurity job simulation",
     img: "Datacom.png",
     description: "In this cybersecurity job simulation, I focussed on how Datacom's cybersecurity team helps protect it's clients, investigated a cyberattack and produced a comprehensive report documenting findings and outlining key recommendations to improve a client's cybersecurity posture usig OSINT, and conducted a comprehensive risk assessment. " 
