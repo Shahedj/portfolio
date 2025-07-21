@@ -57,6 +57,11 @@ const projectInfo =  [
     description: "In the simulation I Completed a cybersecurity threat analysis simulation for the Cyber Defense Unit, staying updated on CISA publications, researched and understood reported vulnerabilities, showcasing analytical skills in cybersecurity, drafted a clear and concise email to guide teams on vulnerability remediation, and wrote a small script for ethical hacking, avoiding ransom payments by bruteforcing decryption keys." 
 },
 {
+    title: "Deloitte Job Simulation - Forage",
+    img: "Del.png",
+    description: " In this simulation, I analyzed web activity logs to detect suspicious user behavior, supported a client experiencing a cybersecurity breach, and answered scenario-based questions to identify potential threats. This experience helped me strengthen my analytical thinking and better understand how professionals respond to and investigate cyber incidents in a fast-paced consulting environment." 
+},
+{
     title: "Mastercard's Cybersecurity on Forage",
     img: "Forage.png",
     description: "In the simulation I completed a job simulation where I served as an analyst on Mastercard’s Security Awareness Team, helped identify and report security threats such as phishing, analyzed and identified which areas of the business needed more robust security training and implemented training courses and procedures for those teams." 
