@@ -59,17 +59,17 @@ const projectInfo =  [
 {
     title: "Deloitte Job Simulation - Forage",
     img: "Del.png",
-    description: " In this simulation, I analyzed web activity logs to detect suspicious user behavior, supported a client experiencing a cybersecurity breach, and answered scenario-based questions to identify potential threats. This experience helped me strengthen my analytical thinking and better understand how professionals respond to and investigate cyber incidents in a fast-paced consulting environment." 
+    description: "In this simulation, I analyzed web activity logs to detect suspicious user behavior, supported a client experiencing a cybersecurity breach, and answered scenario-based questions to identify potential threats. This experience helped me strengthen my analytical thinking and better understand how professionals respond to and investigate cyber incidents in a fast-paced consulting environment." 
 },
 {
-    title: "Deloitte Job Simulation - Forage",
-    img: "Del.png",
-    description: " In this simulation, I analyzed web activity logs to detect suspicious user behavior, supported a client experiencing a cybersecurity breach, and answered scenario-based questions to identify potential threats. This experience helped me strengthen my analytical thinking and better understand how professionals respond to and investigate cyber incidents in a fast-paced consulting environment." 
-},
-{
-    title: "Commonwealth Bank Cybersecurity on Forage",
+    title: "Commonwealth Bank Cybersecurity - Forage",
     img: "CommonWealthBank.png",
     description: "In the simulation I completed Completed a job simulation involving the role of a cybersecurity generalist, specializing in fraud detection and prevention team. Developed skills in building data visualization dashboards using Splunk to uncover patterns and insight aiding in fraud detection. Responded effectively to cybersecurity incidents, including notifying relevant teams, collecting information, containing and stopping attacks, and aiding in recovery efforts. Enhanced security awareness by designing infographics promoting best practices for secure password management, following Australian Cybersecurity Centre advice. Acquired practical experience in penetration testing, assessing the security of web applications, and wrote a penetration testing report." 
+},
+{
+    title: "Mastercard's Cybersecurity on Forage",
+    img: "Forage.png",
+    description: "In the simulation I completed a job simulation where I served as an analyst on Mastercard’s Security Awareness Team, helped identify and report security threats such as phishing, analyzed and identified which areas of the business needed more robust security training and implemented training courses and procedures for those teams." 
 },
 {
     title: "Emenu (Drink Menu Management System)",
