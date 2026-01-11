@@ -57,6 +57,11 @@ const projectInfo =  [
     description: "In the simulation I Completed a cybersecurity threat analysis simulation for the Cyber Defense Unit, staying updated on CISA publications, researched and understood reported vulnerabilities, showcasing analytical skills in cybersecurity, drafted a clear and concise email to guide teams on vulnerability remediation, and wrote a small script for ethical hacking, avoiding ransom payments by bruteforcing decryption keys." 
 },
 {
+    title: "TATA Cybersecurity Analyst Job Simulation - Forage",
+    img: "TATA.png",
+    description: "In the simulation I worked on a consulting-style Identity and Access Management (IAM) engagement for TechCorp Enterprises. In this simulation I evaluated TechCorp’s IAM readiness, designed a tailored IAM solutions, and developed a detailed IAM platform implementation plan to ensure secure and efficient access. This experience reinforced how essential IAM is to protecting digital assets and sensitive data, as well as how access governance, RBAC, and MFA are applied across industries to solve real security challenges. I also explored IAM trends for 2025 and reviewed real world case studies in healthcare and financial services to better understand IAM’s practical impact. The final deliverable was a comprehensive PowerPoint presentation outlining a detailed IAM implementation plan for TechCorp." 
+},
+{
     title: "Deloitte Job Simulation - Forage",
     img: "Del.png",
     description: "In this simulation, I analyzed web activity logs to detect suspicious user behavior, supported a client experiencing a cybersecurity breach, and answered scenario-based questions to identify potential threats. This experience helped me strengthen my analytical thinking and better understand how professionals respond to and investigate cyber incidents in a fast-paced consulting environment." 
