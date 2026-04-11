@@ -11,6 +11,12 @@ function deleteChildElements(parent) {
 }
 
 const projectInfo =  [
+
+{
+    title: "CyberBot – AI-Powered Cybersecurity Chatbot <a href='https://github.com/shahedk/CyberBot' target='_blank'>GitHub</a>",
+    img: "chatbot.png",
+    description: "I developed CyberBot, a full-stack AI-powered cybersecurity chatbot using React.js, FastAPI, Python, and OpenAI GPT-4o-mini, focused on secure and ethical AI usage. Implemented real-time streaming responses via Server-Sent Events (SSE) and built a secure authentication system using OAuth2 and JWT with hashed password storage and protected API routes. Designed PII detection to block sensitive data (SSNs, credit cards, passwords) and engineered prompt controls to restrict the AI to ethical cybersecurity topics while refusing malicious or illegal requests. Utilized SQLite for user management and token-based session validation with expiration handling, demonstrating skills in full-stack development, API security, and AI safety."
+},
 {
     title: "Pool cleaning service",
     img: "poolapp.png",
