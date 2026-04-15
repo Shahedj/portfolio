@@ -11,7 +11,10 @@ function deleteChildElements(parent) {
 }
 
 const projectInfo =  [
-
+//✔ Prevents hacking tricks
+//✔ Protects user privacy
+//✔ Considered best practice when using target="_blank"
+//reverse tabnabbing
     
 {
     title: "CyberBot – AI-Powered Cybersecurity Chatbot",
