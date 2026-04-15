@@ -72,7 +72,7 @@ p {
 h2 {
     margin-left: 25px;
     font-size: 40px;
-    color: rgb(231, 56, 114);
+    color: hsl(340, 78%, 56%);
     text-shadow: 0 0 20px #ff0055;
 }
 
