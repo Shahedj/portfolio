@@ -27,11 +27,6 @@ const projectInfo =  [
     description: "This project makes payment methods easier between clients and providers, make it easier for clients to schedule appointments with providers by seeing their availability and what locations they cover, look at what the provider worked on and a time stamp of where they are, providers are able to check what tasks they have done and what is in progress still. Me and my team are doing this project using HTML, CSS, JS for frontend, Django is being used for the backend, and MySQL as a database. "
 },
 {
-    title: "Game world game",
-    img: "ipadGame.png",
-    description: "This project is done using Java using codenameone, this project has multiple player shaped objects that move in their intended headed directions within the defined boundaries and the main player can go to places to increase their waterintake or go to restroom to have their waterintake back to 0, and the main player can also attend or miss lecture which will have different results."
-},
-{
     title: "Tenable Nessus",
     img: "TenableNessus.png",
     description: "In this lab, I opened my VM to run Kali Linux and opened Tenable Nessus and ran a valnerability scan on a specific IP range given. I then wrote a detailed report of the vulnerabilities found, how it was found with evidence, and mitigations steps to help increase security measures and prevent any exploitation."
@@ -58,7 +53,7 @@ const projectInfo =  [
 },
 {
     title: "EY Technology Risk",
-    img: "EY",
+    img: "EY.png",
     description: "In this simulation, I gained hands-on exposure to IT Audit and Technology Risk concepts by analyzing how organizations identify, evaluate, and manage IT-related risks through the use of IT General Controls (ITGCs). I explored key control areas such as access management and change management, and learned how these controls support the confidentiality, integrity, and availability of business systems and data. I analyzed an end-to-end change management process covering development, QA, user acceptance testing (UAT), approval through a change control board (CCB), and production deployment, while identifying where control risks such as unauthorized or improper changes could occur. I also examined how IT Audit functions support financial statement audits by ensuring the reliability of data processed through IT systems. Throughout the simulation, I applied professional skepticism to evaluate audit evidence, identify potential control gaps, and assess whether controls were operating effectively. I also developed probing questions to better understand IT processes, uncover risks, and evaluate control design and effectiveness, while strengthening my communication and stakeholder interviewing skills in a consulting context. This experience reinforced my understanding of IT controls, governance, and risk management principles, and provided practical insight into how Technology Risk professionals assess IT environments and support organizations in strengthening their cybersecurity and compliance posture. "
 },
 {
@@ -90,6 +85,11 @@ const projectInfo =  [
     title: "Mastercard's Cybersecurity on Forage",
     img: "Forage.png",
     description: "In the simulation I completed a job simulation where I served as an analyst on Mastercard’s Security Awareness Team, helped identify and report security threats such as phishing, analyzed and identified which areas of the business needed more robust security training and implemented training courses and procedures for those teams." 
+},
+{
+    title: "Game world game",
+    img: "ipadGame.png",
+    description: "This project is done using Java using codenameone, this project has multiple player shaped objects that move in their intended headed directions within the defined boundaries and the main player can go to places to increase their waterintake or go to restroom to have their waterintake back to 0, and the main player can also attend or miss lecture which will have different results."
 },
 {
     title: "Emenu (Drink Menu Management System)",
