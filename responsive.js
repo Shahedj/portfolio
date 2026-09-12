@@ -32,17 +32,27 @@ const projectInfo =  [
     description: "Conducted a hands-on cybersecurity network forensics investigation using Wireshark and TShark to analyze PCAP traffic and reconstruct attacker activity across IRC, DCC, DNS, HTTP, FTP, ICMP, and Ethernet traffic, identifying malicious infrastructure, communication channels, and transferred files. Performed network and file forensics including file recovery, authentication and cryptographic analysis, IP/domain attribution, and password cracking with John the Ripper. Built Python/PyShark automation for PCAP analysis."
 },
 {
+    title: "PwC Cyber",
+    img: "PwC.png",
+    description: "PwC US Cyber Security ConsultingJob Simulation on Forage. In this simulation, I gained valuable insight into the type of work conducted by the Enterprise Risk and Control Solutions group. I worked on a cybersecurity risk assessment project, evaluating a client's processes (P2P Standard Operating Procedure (SOP) document) against Sarbanes-Oxley (SOX) requirements. I assessed whether controls were missing, identified associated risks with those gaps, and documented my findings using a Test of Design and Operating Effectiveness and provided advice and feedback. I also read the client's SDLC SOP and compared it against the NIST SDLC guide (industry framework that provides leading practices) to pinpoint the gaps that they have. I also created a one-slide summary to present my analysis, which helped strengthen my analytical and presentation skills in a real-world context. "
+},
+{
+    title: "AWS Scoute Suite - IAM Security Assessment",
+    img: "Scoutesuite.png",
+    description: "In this hands-on AWS lab, I created and secured a new AWS account, set up multi-factor authentication (MFA) for both the root and IAM administrator users, and established best practices by creating a non-root IAM admin for daily use for increased security. I then created an IAM user with read-only permissions. I installed a Python virtual environment and set up Scout Suite, a security auditing tool that assess cloud environment security measures, to perform a posture scan of the AWS environment. This scan identified potential security misconfigurations and vulnerabilities like disabled password expiration policies, Wrote a report with evidence and mitigation steps. I then corrected 3 of the security misconfigurations such as implementing a password eXpiration policy, MFA, and the allowed amount of tries of entering the correct password to 3 times only to prevent brute force attacks."
+},
+{
+    title: "TATA Cybersecurity Analyst Job Simulation - Forage",
+    img: "TATA.png",
+    description: "In the simulation I worked on a consulting-style Identity and Access Management (IAM) engagement for TechCorp Enterprises. In this simulation I evaluated TechCorp’s IAM readiness, designed a tailored IAM solutions, and developed a detailed IAM platform implementation plan to ensure secure and efficient access. This experience reinforced how essential IAM is to protecting digital assets and sensitive data, as well as how access governance, RBAC, and MFA are applied across industries to solve real security challenges. I also explored IAM trends for 2025 and reviewed real world case studies in healthcare and financial services to better understand IAM’s practical impact. The final deliverable was a comprehensive PowerPoint presentation outlining a detailed IAM implementation plan for TechCorp." 
+},
+{
     title: "Tenable Nessus",
     img: "TenableNessus.png",
     description: "In this lab, I opened my VM to run Kali Linux and opened Tenable Nessus and ran a valnerability scan on a specific IP range given. I then wrote a detailed report of the vulnerabilities found, how it was found with evidence, and mitigations steps to help increase security measures and prevent any exploitation."
 }, 
 {
-    title: "Scoute Suite",
-    img: "Scoutesuite.png",
-    description: "In this hands-on AWS lab, I created and secured a new AWS account, set up multi-factor authentication (MFA) for both the root and IAM administrator users, and established best practices by creating a non-root IAM admin for daily use for increased security. I then created an IAM user with read-only permissions. I installed a Python virtual environment and set up Scout Suite, a security auditing tool that assess cloud environment security measures, to perform a posture scan of the AWS environment. This scan identified potential security misconfigurations and vulnerabilities like disabled password expiration policies, Wrote a report with evidence and mitigation steps. I then corrected 3 of the security misconfigurations such as implementing a password eXpiration policy, MFA, and the allowed amount of tries of entering the correct password to 3 times only to prevent brute force attacks."
-},
-{
-    title: "Wireshark",
+    title: "Email breach - Wireshark",
     img: "Wireshark.png",
     description: "In this investigative lab, I acted as a Blue Team analyst responding to an internal email breach at a simulated company. I conducted a full network and log analysis to trace the source of a suspicious mass email. I analyzed network traffic using Wireshark to identify the source IP address of a malicious email using packet sniffing of a .pcap file. I then used the IP address to match it to a host device using DHCP logs and confirmed the logged-in user via security logs by looking at the events and activites logged. This process revealed that the suspicious emails originated from host USER2, which was accessed by user John Doe at the time of the incident, identifying the rogue actor."
 },  
@@ -51,11 +61,6 @@ const projectInfo =  [
     img: "BurpSuite.png",
     description: "For web application security testing. I used Burp Suite to perform brute-force attacks to crack login credentials and also practiced SQL injection, input manipulation, and Encoding/Decodin during a weekly web-based Capture the Flag (CTF) exercises."
 }, 
-{
-    title: "PwC Cyber",
-    img: "PwC.png",
-    description: "PwC US Cyber Security ConsultingJob Simulation on Forage. In this simulation, I gained valuable insight into the type of work conducted by the Enterprise Risk and Control Solutions group. I worked on a cybersecurity risk assessment project, evaluating a client's processes (P2P Standard Operating Procedure (SOP) document) against Sarbanes-Oxley (SOX) requirements. I assessed whether controls were missing, identified associated risks with those gaps, and documented my findings using a Test of Design and Operating Effectiveness and provided advice and feedback. I also read the client's SDLC SOP and compared it against the NIST SDLC guide (industry framework that provides leading practices) to pinpoint the gaps that they have. I also created a one-slide summary to present my analysis, which helped strengthen my analytical and presentation skills in a real-world context. "
-},
 {
     title: "Datacom cybersecurity job simulation",
     img: "Datacom.png",
@@ -71,11 +76,6 @@ const projectInfo =  [
     title: "AIG Shields Up - Forage",
     img: "ShieldUp.png",
     description: "In the simulation I Completed a cybersecurity threat analysis simulation for the Cyber Defense Unit, staying updated on CISA publications, researched and understood reported vulnerabilities, showcasing analytical skills in cybersecurity, drafted a clear and concise email to guide teams on vulnerability remediation, and wrote a small script for ethical hacking, avoiding ransom payments by bruteforcing decryption keys." 
-},
-{
-    title: "TATA Cybersecurity Analyst Job Simulation - Forage",
-    img: "TATA.png",
-    description: "In the simulation I worked on a consulting-style Identity and Access Management (IAM) engagement for TechCorp Enterprises. In this simulation I evaluated TechCorp’s IAM readiness, designed a tailored IAM solutions, and developed a detailed IAM platform implementation plan to ensure secure and efficient access. This experience reinforced how essential IAM is to protecting digital assets and sensitive data, as well as how access governance, RBAC, and MFA are applied across industries to solve real security challenges. I also explored IAM trends for 2025 and reviewed real world case studies in healthcare and financial services to better understand IAM’s practical impact. The final deliverable was a comprehensive PowerPoint presentation outlining a detailed IAM implementation plan for TechCorp." 
 },
 {
     title: "Deloitte Job Simulation - Forage",
