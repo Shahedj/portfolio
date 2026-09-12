@@ -50,22 +50,17 @@ const projectInfo =  [
     title: "Tenable Nessus",
     img: "TenableNessus.png",
     description: "In this lab, I opened my VM to run Kali Linux and opened Tenable Nessus and ran a valnerability scan on a specific IP range given. I then wrote a detailed report of the vulnerabilities found, how it was found with evidence, and mitigations steps to help increase security measures and prevent any exploitation."
-}, 
+},
 {
-    title: "Email breach - Wireshark",
-    img: "Wireshark.png",
-    description: "In this investigative lab, I acted as a Blue Team analyst responding to an internal email breach at a simulated company. I conducted a full network and log analysis to trace the source of a suspicious mass email. I analyzed network traffic using Wireshark to identify the source IP address of a malicious email using packet sniffing of a .pcap file. I then used the IP address to match it to a host device using DHCP logs and confirmed the logged-in user via security logs by looking at the events and activites logged. This process revealed that the suspicious emails originated from host USER2, which was accessed by user John Doe at the time of the incident, identifying the rogue actor."
-},  
+    title: "Datacom cybersecurity job simulation",
+    img: "Datacom.png",
+    description: "In this cybersecurity job simulation, I focussed on how Datacom's cybersecurity team helps protect it's clients, investigated a cyberattack and produced a comprehensive report documenting findings and outlining key recommendations to improve a client's cybersecurity posture usig OSINT, and conducted a comprehensive risk assessment. " 
+}, 
 {
     title: "Burp Suite",
     img: "BurpSuite.png",
     description: "For web application security testing. I used Burp Suite to perform brute-force attacks to crack login credentials and also practiced SQL injection, input manipulation, and Encoding/Decodin during a weekly web-based Capture the Flag (CTF) exercises."
 }, 
-{
-    title: "Datacom cybersecurity job simulation",
-    img: "Datacom.png",
-    description: "In this cybersecurity job simulation, I focussed on how Datacom's cybersecurity team helps protect it's clients, investigated a cyberattack and produced a comprehensive report documenting findings and outlining key recommendations to improve a client's cybersecurity posture usig OSINT, and conducted a comprehensive risk assessment. " 
-},
 {
     title: "Pool cleaning service",
     img: "poolapp.png",
@@ -82,6 +77,11 @@ const projectInfo =  [
     img: "Del.png",
     description: "In this simulation, I analyzed web activity logs to detect suspicious user behavior, supported a client experiencing a cybersecurity breach, and answered scenario-based questions to identify potential threats. This experience helped me strengthen my analytical thinking and better understand how professionals respond to and investigate cyber incidents in a fast-paced consulting environment." 
 },
+{
+    title: "Email breach - Wireshark",
+    img: "Wireshark.png",
+    description: "In this investigative lab, I acted as a Blue Team analyst responding to an internal email breach at a simulated company. I conducted a full network and log analysis to trace the source of a suspicious mass email. I analyzed network traffic using Wireshark to identify the source IP address of a malicious email using packet sniffing of a .pcap file. I then used the IP address to match it to a host device using DHCP logs and confirmed the logged-in user via security logs by looking at the events and activites logged. This process revealed that the suspicious emails originated from host USER2, which was accessed by user John Doe at the time of the incident, identifying the rogue actor."
+},  
 {
     title: "Commonwealth Bank Cybersecurity - Forage",
     img: "CommonWealthBank.png",
